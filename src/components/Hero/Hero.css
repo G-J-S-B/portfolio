@@ -1,0 +1,91 @@
+.hero-section {
+	display: flex;
+	height: calc(100vh - 200px);
+    position
+}
+
+.hero-section > img {
+	position: absolute;
+	z-index: 9;
+	top:-35%;
+	left:-45%;
+	transform: rotate(-22deg);
+	width: 100%;
+}
+
+.hero-layout {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	z-index: 99;
+	text-transform: uppercase;
+}
+
+.hero-content {
+    position: relative;
+	color: var(--color-text-dark);
+	font-family: TcMilo;
+	transform: rotate(-12deg);
+	padding: 0 50px;
+	text-align: center;
+	z-index: 9999;
+}
+
+.hero-content > h1 {
+	font-size: 7rem;
+	line-height: 6rem;
+	letter-spacing: 0.25rem;
+}
+
+.hero-content > h2 {
+	padding-top: 4rem;
+	font-size: 3rem;
+	line-height: 2rem;
+}
+
+.hero-content .tornado{
+    position: absolute;
+    left: -50%;
+    bottom: -30%;
+    width: 30%;
+    transform: rotate(0deg);
+}
+
+.hero-content .crosses{
+    position: absolute;
+    left: -30%;
+    top: -50%;
+    width: 60%;
+    transform: rotate(-8deg);
+}
+
+.hero-content .crosses2{
+    position: absolute;
+    right:-30%;
+    bottom: 12%;
+    width: 40%;
+    transform: rotate(95deg);
+}
+
+.profile-card {
+	transform: rotate(10deg);
+	background-color: var(--color-bg-bright);
+}
+
+.profile-card img {
+	height: 700px;
+	padding: 40px 30px 90px;
+}
+
+.hero-profile{
+    position: relative;
+}
+
+.hero-profile .arrow {
+    position: absolute;
+    z-index: 9999;
+    top: 30%;
+    left: -70%;
+    width: 80%;
+}
