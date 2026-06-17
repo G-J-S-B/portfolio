@@ -1,0 +1,41 @@
+header {
+	top: 0;
+	height: 120px;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: sticky;
+	z-index: 999;
+}
+
+.nav-bar {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	padding: 10px 0px;
+}
+
+nav {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 1.5rem;
+}
+
+nav a:hover,
+.nav-icon a:hover {
+	color: var(--color-muted);
+	transition: 0.2s;
+}
+
+.nav-icon a {
+	font-family: TcMilo;
+	color: var(--color-text-dark);
+	font-size: 4rem;
+	padding: 0px 15px;
+}
