@@ -1,7 +1,8 @@
 .hero-section {
 	display: flex;
-	height: calc(100vh - 200px);
-    position
+	height: calc(100vh - 100px);
+	position: relative;
+	margin-bottom: 20%;
 }
 
 .hero-section > img {
@@ -23,9 +24,9 @@
 }
 
 .hero-content {
-    position: relative;
+	position: relative;
 	color: var(--color-text-dark);
-	font-family: TcMilo;
+	font-family: var(--font-display);
 	transform: rotate(-12deg);
 	padding: 0 50px;
 	text-align: center;
@@ -33,15 +34,18 @@
 }
 
 .hero-content > h1 {
-	font-size: 7rem;
-	line-height: 6rem;
-	letter-spacing: 0.25rem;
+	font-family: var(--font-display);
+	font-size: var(--text-hero);
+	line-height: 0.88;
+	letter-spacing: 0.05em;
 }
 
 .hero-content > h2 {
 	padding-top: 4rem;
-	font-size: 3rem;
-	line-height: 2rem;
+	font-family: var(--font-display);
+	font-size: var(--text-hero-subtitle);
+	line-height: 1.05;
+	letter-spacing: 0.04em;
 }
 
 .hero-content .tornado{
@@ -74,7 +78,7 @@
 }
 
 .profile-card img {
-	height: 700px;
+	height: 500px;
 	padding: 40px 30px 90px;
 }
 

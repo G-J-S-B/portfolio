@@ -1,5 +1,6 @@
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+import About from './components/About/About'
 import './App.css'
 
 
@@ -9,8 +10,9 @@ function App()
   return (
     <>
       <Header />
-      <main className='container'>
+      <main>
         <Hero />
+        <About />
       </main>
       
     </>

@@ -1,0 +1,48 @@
+.about-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-image{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.about-content{
+    justify-content: center;
+    width: 50%;
+}
+
+.about-heading{
+    display: flex;
+    position: relative;
+    padding-bottom: 30px;
+}
+.about-heading img{
+    position: absolute;
+    transform: rotate(-40deg);
+    left: -10%;
+    top: -50%;
+    height: 50px;
+}
+
+.about-para{
+    position: relative;
+}
+
+.about-para > .about-para-crosses{
+    position: absolute;
+    right: 0;
+    bottom: -70%;
+    width: 30%;
+}
+
+.about-para > .about-para-tornado{
+    position: absolute;
+    left: -15%;
+    bottom: -80%;
+    width: 15%;
+    transform: rotate(190deg);
+}

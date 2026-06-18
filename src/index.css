@@ -1,29 +1,49 @@
 @font-face {
 	font-family: "TcMilo";
 	src: url("/fonts/tc-milo.otf") format("opentype");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "CanvaSans";
 	src: url("/fonts/canva-sans.otf") format("opentype");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "DmSans-reg";
 	src: url("/fonts/DMSans-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: "DmSans-bold";
 	src: url("/fonts/DMSans-Bold.otf") format("opentype");
+	font-weight: 700;
+	font-display: swap;
 }
 
 :root {
-	font-family: "CanvaSans", system-ui, sans-serif;
+	font-family: var(--font-body);
+	font-size: 16px;
+	line-height: 1.5;
 
 	color: #f5f5f5;
 	background-color: #1b1b1b;
 
+	--font-body: "CanvaSans", "DmSans-reg", system-ui, sans-serif;
+	--font-heading: "DmSans-bold", "CanvaSans", system-ui, sans-serif;
+	--font-display: "TcMilo", "DmSans-bold", system-ui, sans-serif;
+	--text-xs: 0.75rem;
+	--text-sm: 0.875rem;
+	--text-base: 1rem;
+	--text-md: 1.125rem;
+	--text-lg: 1.5rem;
+	--text-xl: 2rem;
+	--text-2xl: 3rem;
+	--text-hero: clamp(3.5rem, 7vw, 5rem);
+	--text-hero-subtitle: clamp(1.125rem, 2vw, 1.75rem);
 	--color-bg-dark: #1b1b1b;
 	--color-bg-bright: #e8eeee;
 	--color-text-bright: #e8eeee;
@@ -42,6 +62,8 @@ body {
 	min-height: 100vh;
 	background: var(--color-bg);
 	color: var(--color-text);
+	font-family: var(--font-body);
+	font-size: var(--text-base);
 }
 
 a {
@@ -50,21 +72,42 @@ a {
 }
 
 p {
-	font-size: 1rem; /* 16px */
+	font-size: var(--text-base);
+	line-height: 1.6;
 }
 
 small {
-	font-size: 0.875rem; /* 14px */
+	font-size: var(--text-sm);
 }
 
 h1 {
-	font-size: 3rem; /* 48px */
+	font-family: var(--font-heading);
+	font-size: var(--text-2xl);
+	line-height: 1.1;
 }
 
 h2 {
-	font-size: 2rem; /* 32px */
+	font-family: var(--font-heading);
+	font-size: var(--text-xl);
+	line-height: 1.2;
 }
 
 .container {
 	width: 80% auto;
+}
+
+.background-bright{
+	background-color: var(--color-bg-bright) ;
+}
+
+.background-dark{
+	background-color: var(--color-bg-dark) ;
+}
+
+.content-dark{
+	color: var(--color-text-dark);
+}
+
+.content-bright{
+	color: var(--color-text-bright);
 }
