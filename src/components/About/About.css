@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+.about-image > img{
+    height: 500px;
+}
+
 .about-content{
     justify-content: center;
     width: 50%;

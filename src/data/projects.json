@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Weather Checker Application",
+    "link": "https://g-j-s-b.github.io/weather-checker/",
+    "githubLink": "https://github.com/g-j-s-b/weather-checker",
+    "imageLink": "/images/placeholder.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "API Integration"],
+    "description": "A weather checking application that retrieves and displays real-time weather information using an external API call."
+  },
+  {
+    "title": "Simon - Memory Game",
+    "link": "https://g-j-s-b.github.io/memory-game/",
+    "githubLink": "https://github.com/g-j-s-b/memory-game",
+    "imageLink": "/images/placeholder.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
+    "description": "An interactive memory game based on a popular children's toy called Simon. A practice project courtesy of the App Brewery course purchased on Udemy."
+  },
+  {
+    "title": "Online Dispute Settler",
+    "link": "https://g-j-s-b.github.io/dispute-settler/",
+    "githubLink": "https://github.com/g-j-s-b/dispute-settler",
+    "imageLink": "/images/placeholder.png",
+    "technologies": ["JavaScript", "Frontend Development"],
+    "description": "A practical web application used to settle disputes when matters would get serious."
+  },
+  {
+    "title": "Online Drum Kit",
+    "link": "https://g-j-s-b.github.io/online-drum-kit/",
+    "githubLink": "https://github.com/g-j-s-b/online-drum-kit",
+    "imageLink": "/images/placeholder.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "Event Handling"],
+    "description": "A browser-based drum kit application that uses event-driven programming."
+  }
+]

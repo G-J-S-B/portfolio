@@ -100,8 +100,8 @@ h2 {
 	background-color: var(--color-bg-bright) ;
 }
 
-.background-dark{
-	background-color: var(--color-bg-dark) ;
+.background-dark {
+  background: var(--color-bg-dark);
 }
 
 .content-dark{

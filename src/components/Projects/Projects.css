@@ -1,0 +1,28 @@
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.project-card{
+    width: 45%;
+    padding: 20px 20px;
+    background-color: var(--color-bg-dark);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.project-image{
+    width: 100%;
+}
+
+.project-tech{
+    display: flex;
+}
+.project-links{
+    
+}
+
+
+
